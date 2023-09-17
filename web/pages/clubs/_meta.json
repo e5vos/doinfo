@@ -2,6 +2,10 @@
     "index": {
         "title": "Bevezető"
     },
+    "active": {
+        "title": "Aktív diákkörök",
+        "type": "separator"
+    },
     "techteam": {
         "title": "TechTeam"
     },
@@ -46,5 +50,8 @@
     },
     "szinjatszo": {
         "title": "Színjátszó"
+    },
+    "sakk": {
+        "title": "Sakk - klub"
     }
 }

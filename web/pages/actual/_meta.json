@@ -2,14 +2,15 @@
     "index": {
         "title": "Bevezető"
     },
-    "golyaest": {
-        "title": "Gólyaest"
-    },
-    "kektura": {
-        "title": "Kéktúra 14. szakasz"
+    "active": {
+        "title": "Aktuális programok",
+        "type": "separator"
     },
     "walkthewish": {
         "title": "Walk The Wish"
+    },
+    "zenevilagnap": {
+        "title": "Zene Világnapja"
     },
     "kmt": {
         "title": "KiMitTud?"
@@ -20,5 +21,11 @@
     },
     "klubexpo": {
         "title": "Klubexpo"
+    },
+    "golyaest": {
+        "title": "Gólyaest"
+    },
+    "kektura": {
+        "title": "Kéktúra 14. szakasz"
     }
 }
