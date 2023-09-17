@@ -1,0 +1,126 @@
+{
+  "index": {
+    "title": "Kezdőlap",
+    "type": "page",
+    "theme": {
+      "typesetting": "article"
+    }
+  },
+  "actual": {
+    "title": "Aktualitások",
+    "type": "page",
+    "display": "hidden",
+    "theme": {
+      "typesetting": "article"
+    }
+  },
+  "student-council": {
+    "title": "DÖ",
+    "type": "menu",
+    "items": {
+      "about": {
+        "title": "A DÖ-ről",
+        "type": "page",
+        "theme": {
+          "typesetting": "article"
+        },
+        "href": "/about"
+      },
+      "government": {
+        "title": "Jelenlegi kormámy",
+        "type": "page",
+        "theme": {
+          "typesetting": "article"
+        },
+        "href": "/government"
+      }
+    }
+  },
+  "about": {
+    "title": "A DÖ-ről",
+    "display": "hidden",
+    "type": "page",
+    "theme": {
+      "typesetting": "article"
+    }
+  },
+  "government": {
+    "title": "Jelenlegi vezetőség",
+    "type": "page",
+    "theme": {
+      "typesetting": "article"
+    },
+    "display": "hidden"
+  },
+  "clubs-and-activities": {
+    "title": "Iskolaélet",
+    "type": "menu",
+    "items": {
+      "actual": {
+        "title": "Aktualitások",
+        "type": "page",
+        "theme": {
+          "typesetting": "article"
+        },
+        "href": "/actual"
+      },
+      "clubs": {
+        "title": "Közösségek",
+        "type": "page",
+        "theme": {
+          "typesetting": "article"
+        },
+        "href": "/clubs"
+      },
+      "activities": {
+        "title": "Szakkörök",
+        "type": "page",
+        "theme": {
+          "typesetting": "article"
+        },
+        "href": "/activities"
+      }
+    }
+  },
+  "clubs": {
+    "title": "Közösségek",
+    "display": "hidden",
+    "type": "page",
+    "theme": {
+      "typesetting": "article"
+    }
+  },
+  "activities": {
+    "title": "Szakkörök",
+    "display": "hidden",
+    "type": "page",
+    "theme": {
+      "typesetting": "article"
+    }
+  },
+  "calendar": {
+    "title": "Naptár",
+    "type": "page",
+    "theme": {
+      "typesetting": "article"
+    }
+  },
+  "egyeb": {
+    "title": "Egyéb",
+    "type": "menu",
+    "items": {
+      "dokumentumok": {
+        "title": "Nyilvános dokumentumok ↗",
+        "href": "https://drive.google.com/drive/folders/0BzvbwQrx8NJEVnJfM2tSTjJsaTA?resourcekey=0-dexBffraBCSqohIM_y4Xiw&usp=drive_link",
+        "newWindow": true
+      }
+    }
+  },
+  "contact": {
+    "title": "Kapcsolat",
+    "type": "page",
+    "theme": {
+      "typesetting": "article"
+    }
+  }
+}

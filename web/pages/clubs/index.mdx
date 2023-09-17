@@ -1,0 +1,65 @@
+import { Cards, Card } from "nextra/components";
+import {
+  PiMicrophoneStageFill,
+  PiCameraFill,
+  PiBasketballFill,
+  PiNewspaperClippingFill,
+  PiLaptopFill,
+  PiPuzzlePieceFill,
+  PiRadioFill,
+  PiPlantFill,
+} from "react-icons/pi";
+import { ImHammer2 } from "react-icons/im";
+import { MdVolunteerActivism } from "react-icons/md";
+import { GiForestCamp, GiHealthPotion } from "react-icons/gi";
+import { FaMasksTheater } from "react-icons/fa6";
+
+# Iskolai közösségek
+
+Alább láthatod az összes közösséget az iskolánkban. Amennyiben találsz neked szimpatikusat, a kapcsolattartókat elérheted a megadott elérhetőségeken.
+
+<Cards>
+  <Card
+    icon={<PiMicrophoneStageFill />}
+    title="TechTeam"
+    href="/clubs/techteam"
+  />
+  <Card icon={<PiCameraFill />} title="Eötvös Média" href="/clubs/media" />
+  <Card
+    icon={<PiBasketballFill />}
+    title="Eötvös Kosárlabdacsapat"
+    href="/clubs/kosarlabda"
+  />
+  <Card
+    icon={<PiNewspaperClippingFill />}
+    title="Eötvös Diák"
+    href="/clubs/diak"
+  />
+  <Card
+    icon={<PiLaptopFill />}
+    title="Eötvös Alkotó Műhely"
+    href="/clubs/eam"
+  />
+  <Card icon={<ImHammer2 />} title="BIMUN" href="/clubs/bimun" />
+  <Card
+    icon={<MdVolunteerActivism />}
+    title="Nekünk X"
+    href="/clubs/nekunk-x"
+  />
+  <Card icon={<GiForestCamp />} title="Kéktúra-szakkör" href="/clubs/kektura" />
+  <Card icon={<ImHammer2 />} title="MUN-Club" href="/clubs/mun-club" />
+  <Card
+    icon={<PiPuzzlePieceFill />}
+    title="TársasTár"
+    href="/clubs/tarsastar"
+  />
+  <Card
+    icon={<GiHealthPotion />}
+    title="Elsősegélynyújtó Diákkör"
+    href="/clubs/elsosegely"
+  />
+  <Card icon={<PiRadioFill />} title="Iskolarádió" href="/clubs/radio" />
+  <Card icon={<PiPlantFill />} title="Zöld bizottság" href="/clubs/zoldbiz" />
+  <Card icon={<ImHammer2 />} title="Debate Club" href="/clubs/debate" />
+  <Card icon={<FaMasksTheater />} title="Színjátszó" href="/clubs/szinjatszo" />
+</Cards>

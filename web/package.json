@@ -1,0 +1,31 @@
+{
+  "name": "@barnagoz/do-web",
+  "version": "1.0.0",
+  "description": "A website made for the Diákönkormányzat of Eötvös József Gimnázium",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/barnagoz/do.git"
+  },
+  "author": "Barnabás Gőz <goz.barnabas@e5vos.hu>",
+  "license": "MIT",
+  "homepage": "https://github.com/barnagoz/do",
+  "dependencies": {
+    "@emotion/react": "^11.11.1",
+    "@ericz1803/react-google-calendar": "^4.3.1",
+    "next": "^13.0.6",
+    "nextra": "latest",
+    "nextra-theme-docs": "latest",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-icons": "^4.10.1"
+  },
+  "devDependencies": {
+    "@types/node": "18.11.10",
+    "typescript": "^4.9.3"
+  }
+}

@@ -1,0 +1,50 @@
+{
+    "index": {
+        "title": "Bevezető"
+    },
+    "techteam": {
+        "title": "TechTeam"
+    },
+    "media": {
+        "title": "Eötvös Média"
+    },
+    "kosarlabda": {
+        "title": "Eötvös Kosárlabdacsapat"
+    },
+    "diak": {
+        "title": "Eötvös Diák"
+    },
+    "eam": {
+        "title": "Eötvös Alkotó Műhely"
+    },
+    "bimun": {
+        "title": "BIMUN"
+    },
+    "nekunk-x": {
+        "title": "Nekünk X"
+    },
+    "kektura": {
+        "title": "Kéktúra-szakkör"
+    },
+    "mun-club": {
+        "title": "MUN-Club"
+    },
+    "tarsastar": {
+        "title": "TársasTár"
+    },
+    "elsosegely": {
+        "title": "Elsősegélynyújtó Diákkör"
+    },
+    "radio": {
+        "title": "Iskolarádió"
+    },
+    "zoldbiz": {
+        "title": "Zöld Bizottság"
+    },
+    "debate": {
+        "title": "Debate Club"
+    },
+    "szinjatszo": {
+        "title": "Színjátszó"
+    }
+}

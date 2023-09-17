@@ -1,0 +1,24 @@
+{
+    "index": {
+        "title": "Bevezető"
+    },
+    "golyaest": {
+        "title": "Gólyaest"
+    },
+    "kektura": {
+        "title": "Kéktúra 14. szakasz"
+    },
+    "walkthewish": {
+        "title": "Walk The Wish"
+    },
+    "kmt": {
+        "title": "KiMitTud?"
+    },
+    "lejart": {
+        "title": "Régebbi programok",
+        "type": "separator"
+    },
+    "klubexpo": {
+        "title": "Klubexpo"
+    }
+}
