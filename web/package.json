@@ -17,7 +17,7 @@
   "dependencies": {
     "@emotion/react": "^11.11.1",
     "@ericz1803/react-google-calendar": "^4.3.1",
-    "next": "^13.0.6",
+    "next": "^13.5.4",
     "nextra": "latest",
     "nextra-theme-docs": "latest",
     "react": "^18.2.0",
