@@ -108,7 +108,7 @@ const config: DocsThemeConfig = {
             </a>
           </p>
           <p>
-            Developed by <a href="https://github.com/barnagoz">Barnabás Gőz</a>
+            Developed by <a href="https://barnagoz.com">Barnabás Gőz</a>
           </p>
         </div>
         <div

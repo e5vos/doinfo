@@ -6,12 +6,6 @@
         "title": "Aktuális programok",
         "type": "separator"
     },
-    "zenevilagnap": {
-        "title": "Zene Világnapja"
-    },
-    "merch": {
-        "title": "Design pályázat"
-    },
     "kmt": {
         "title": "KiMitTud?"
     },
@@ -30,5 +24,11 @@
     },
     "walkthewish": {
         "title": "Walk The Wish"
+    },
+    "zenevilagnap": {
+        "title": "Zene Világnapja"
+    },
+    "merch": {
+        "title": "Design pályázat"
     }
 }
