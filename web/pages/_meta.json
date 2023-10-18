@@ -6,8 +6,8 @@
       "typesetting": "article"
     }
   },
-  "actual": {
-    "title": "Aktualitások",
+  "news": {
+    "title": "Hírek",
     "type": "page",
     "display": "hidden",
     "theme": {
@@ -27,12 +27,17 @@
         "href": "/about"
       },
       "government": {
-        "title": "Jelenlegi kormámy",
+        "title": "Jelenlegi kormány",
         "type": "page",
         "theme": {
           "typesetting": "article"
         },
         "href": "/government"
+      },
+      "dokumentumok": {
+        "title": "Nyilvános dokumentumok ↗",
+        "href": "https://drive.google.com/drive/folders/0BzvbwQrx8NJEVnJfM2tSTjJsaTA?resourcekey=0-dexBffraBCSqohIM_y4Xiw&usp=drive_link",
+        "newWindow": true
       }
     }
   },
@@ -56,13 +61,13 @@
     "title": "Iskolaélet",
     "type": "menu",
     "items": {
-      "actual": {
+      "news": {
         "title": "Aktualitások",
         "type": "page",
         "theme": {
           "typesetting": "article"
         },
-        "href": "/actual"
+        "href": "/news"
       },
       "clubs": {
         "title": "Közösségek",
@@ -72,13 +77,13 @@
         },
         "href": "/clubs"
       },
-      "activities": {
-        "title": "Szakkörök",
+      "calendar": {
+        "title": "Naptár",
         "type": "page",
         "theme": {
           "typesetting": "article"
         },
-        "href": "/activities"
+        "href": "/calendar"
       }
     }
   },
@@ -90,30 +95,12 @@
       "typesetting": "article"
     }
   },
-  "activities": {
-    "title": "Szakkörök",
+  "calendar": {
+    "title": "Naptár",
     "display": "hidden",
     "type": "page",
     "theme": {
       "typesetting": "article"
-    }
-  },
-  "calendar": {
-    "title": "Naptár",
-    "type": "page",
-    "theme": {
-      "typesetting": "article"
-    }
-  },
-  "egyeb": {
-    "title": "Egyéb",
-    "type": "menu",
-    "items": {
-      "dokumentumok": {
-        "title": "Nyilvános dokumentumok ↗",
-        "href": "https://drive.google.com/drive/folders/0BzvbwQrx8NJEVnJfM2tSTjJsaTA?resourcekey=0-dexBffraBCSqohIM_y4Xiw&usp=drive_link",
-        "newWindow": true
-      }
     }
   },
   "contact": {

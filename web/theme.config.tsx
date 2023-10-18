@@ -141,7 +141,7 @@ const config: DocsThemeConfig = {
     dismissible: true,
     key: "klubexpo2023",
     text: (
-      <a href="/actual/klubexpo" target="_blank">
+      <a href="/news/klubexpo" target="_blank">
         👥 Idén is megrendezésre került a Klubexpo! Infók →
       </a>
     ),

@@ -1,20 +1,20 @@
 {
     "index": {
-        "title": "Bevezető"
+        "title": "Portál"
     },
     "active": {
-        "title": "Aktuális programok",
+        "title": "Aktuális hírek",
         "type": "separator"
     },
     "kmt": {
         "title": "KiMitTud?"
     },
     "lejart": {
-        "title": "Régebbi programok",
+        "title": "Régebbi hírek",
         "type": "separator"
     },
     "klubexpo": {
-        "title": "Klubexpo"
+        "title": "KlubExpo"
     },
     "golyaest": {
         "title": "Gólyaest"

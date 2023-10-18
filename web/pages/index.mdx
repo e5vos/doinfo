@@ -1,4 +1,9 @@
+---
+title: Kezdőlap
+---
+
 import { Cards, Card } from "nextra/components";
+import { Bleed } from "nextra-theme-docs";
 import {
   FaCalendarDay,
   FaHeart,
@@ -7,121 +12,52 @@ import {
 } from "react-icons/fa";
 import { BiFootball, BiSolidMusic } from "react-icons/bi";
 import { BsPeopleFill } from "react-icons/bs";
-import HeaderImg from "../components/header-img";
+import { ShowcaseCard } from "../components/showcase-card";
 import Link from "next/link";
 
-<HeaderImg />
+# Információk
 
-<div id="main" style={{marginTop: '500px'}}>
-
-# Eötvös DÖ
-
-Az Eötvös József Gimnázium Diákönkormányzata, ha nem is a jelenlegi formájában,
-már több mint fél évszázados múltra tekint vissza. Ezen idő alatt előfordult,
-hogy elsősorban az érdekképviselet terén működött, más időszakokban
-pedig inkább a programkoordináció irányításában járt élen. A jelenlegi
-struktúra szerint az osztályok delegáltakat küldenek az Diákönkormányzat
-Parlamentjébe, amely havi rendszerességgel ülésezik, és évente egyszer
-nyitott szavazáson választ Diákönkormányzat Elnököt. Az Elnök irányítja
-a Kormányt, amelynek fő felelőssége az iskolai programok megvalósítása.
+## Friss hírek
 
 <Cards>
-  <Card icon={<FaRegCalendarPlus />} title="Aktualitások →" href="/actual" />
+  <ShowcaseCard title="KiMitTud?" href="/news/kmt">
+    <img
+      src="/kmt.png"
+      alt="Ki mit tud promo image"
+      style={{ aspectRatio: 12 / 7, objectFit: "cover" }}
+    ></img>
+  </ShowcaseCard>
+  <ShowcaseCard
+    title="Pulóver rendelés"
+    href="https://pullowear.hu/termekkategoria/ejg/"
+  >
+    <img
+      src="/kmt.png"
+      alt="Ki mit tud promo image"
+      style={{ aspectRatio: 12 / 7, objectFit: "cover" }}
+    ></img>
+  </ShowcaseCard>
 </Cards>
 
-## Általunk szervezett programok
+[Régebbi hírek →](/news)
+
+## A DÖ-ről
+
+Az Eötvös József Gimnázium Diákönkormányzata, ha nem is a jelenlegi formájában, már több mint fél évszázados múltra tekint vissza. Ezen idő alatt előfordult, hogy elsősorban az érdekképviselet terén működött, más időszakokban pedig inkább a programkoordináció irányításában járt élen.
 
 <Cards>
-  <Card
-    icon={<FaCalendarDay />}
-    title="Eötvös Napok"
-    href="/about#e%C3%B6tv%C3%B6s-napok"
-  />
-  <Card
-    icon={<FaHeart />}
-    title="Valentin-napi levélküldés"
-    href="/about#valentin-napi-lev%C3%A9lk%C3%BCld%C3%A9s"
-  />
-  <Card
-    icon={<FaRegSnowflake />}
-    title="Szaloncukorküldés"
-    href="/about#szaloncukork%C3%BCld%C3%A9s"
-  />
-  <Card
-    icon={<BiFootball />}
-    title="12 órás foci"
-    href="/about#12-%C3%B3r%C3%A1s-foci"
-  />
-  <Card
-    icon={<BiSolidMusic />}
-    title="Bál"
-    href="/about#12-%C3%B3r%C3%A1s-foci"
-  />
-  <Card
-    icon={<FaRegCalendarPlus />}
-    title="További programjaink →"
-    href="/about#d%C3%B6-%C3%A1ltal-szervezett-programok"
-  />
+  <ShowcaseCard title="Tovább olvasom" href="/about">
+    <img
+      src="/parlament.jpg"
+      alt="Kép a parlamentről"
+      style={{ aspectRatio: 12 / 6, objectFit: "cover" }}
+    ></img>
+  </ShowcaseCard>
+  <ShowcaseCard title="Kormány és t. tisztségviselők" href="/government">
+    <img
+      src="/kormany.jpeg"
+      alt="Kép a kormányról"
+      style={{ aspectRatio: 12 / 6, objectFit: "cover" }}
+    ></img>
+  </ShowcaseCard>
 </Cards>
-
-## Vezetőség
-
-<div
-  style={{
-    width: "100%",
-    display: "flex",
-    justifyContent: "center",
-    gap: "40px",
-  }}
->
-  <div
-    style={{
-      display: "flex",
-      flexDirection: "column",
-      width: "fit-content",
-      padding: "10px",
-      alignItems: "center",
-    }}
-  >
-    <img src="/petra.jpg" style={{ borderRadius: "100%", width: "130px" }} />
-    <h3
-      style={{
-        fontSize: "20px",
-        fontWeight: "bold",
-        marginTop: "10px",
-        marginBottom: "-5px",
-        textAlign: "center",
-      }}
-    >
-      Hargitai Petra
-    </h3>
-    <p style={{ fontSize: "14px" }}>DÖ elnök</p>
-  </div>
-  <div
-    style={{
-      display: "flex",
-      flexDirection: "column",
-      width: "fit-content",
-      padding: "10px",
-      alignItems: "center",
-    }}
-  >
-    <img src="/kim.jpg" style={{ borderRadius: "100%", width: "130px" }} />
-    <h3
-      style={{
-        fontSize: "20px",
-        fontWeight: "bold",
-        marginTop: "10px",
-        marginBottom: "-5px",
-        textAlign: "center",
-      }}
-    >
-      Kim Tran
-    </h3>
-    <p style={{ fontSize: "14px" }}>DÖ alelnök</p>
-  </div>
-</div>
-
-[Kormány és további tisztségviselők →](/government)
-
-</div>
