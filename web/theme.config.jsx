@@ -1,6 +1,6 @@
 import React from "react";
 import { ThemeSwitch } from "nextra-theme-docs";
-import Logo from "./components/Logo";
+import Logo from "./components/logo";
 import { FaFacebook, FaInstagram } from "react-icons/fa";
 
 const config = {
@@ -71,7 +71,7 @@ const config = {
     toggleButton: true,
   },
   editLink: {
-    component: null,
+    component: () => <></>,
   },
   navigation: false,
   toc: {
@@ -156,7 +156,7 @@ const config = {
       };
     },
   },
-  gitTimestamp: false,
+  gitTimestamp: <></>,
 };
 
 export default config;

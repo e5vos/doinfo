@@ -1,6 +1,6 @@
 {
   "name": "@barnagoz/do-web",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "A website made for the Diákönkormányzat of Eötvös József Gimnázium",
   "scripts": {
     "dev": "next dev",

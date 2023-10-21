@@ -4,11 +4,13 @@ import { useEffect, useState } from "react";
 
 function Logo() {
   const [logoURL, setLogoURL] = useState();
-  const { theme } = useTheme();
+  const { resolvedTheme } = useTheme();
 
   useEffect(() => {
-    setLogoURL(theme === "dark" ? "/logo-white.png" : "/logo-black.png");
-  }, [theme]);
+    setLogoURL(
+      resolvedTheme === "dark" ? "/logo-white.png" : "/logo-black.png"
+    );
+  }, [resolvedTheme]);
 
   return <img src={logoURL} width={"40px"}></img>;
 }

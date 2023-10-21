@@ -20,18 +20,10 @@
     "items": {
       "about": {
         "title": "A DÖ-ről",
-        "type": "page",
-        "theme": {
-          "typesetting": "article"
-        },
         "href": "/about"
       },
       "government": {
         "title": "Kormány és további tisztségviselők",
-        "type": "page",
-        "theme": {
-          "typesetting": "article"
-        },
         "href": "/government"
       },
       "dokumentumok": {
@@ -63,26 +55,14 @@
     "items": {
       "news": {
         "title": "Hírek",
-        "type": "page",
-        "theme": {
-          "typesetting": "article"
-        },
         "href": "/news"
       },
       "clubs": {
         "title": "Klubok",
-        "type": "page",
-        "theme": {
-          "typesetting": "article"
-        },
         "href": "/clubs"
       },
       "calendar": {
         "title": "Naptár",
-        "type": "page",
-        "theme": {
-          "typesetting": "article"
-        },
         "href": "/calendar"
       }
     }
