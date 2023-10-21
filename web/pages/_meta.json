@@ -27,7 +27,7 @@
         "href": "/about"
       },
       "government": {
-        "title": "Jelenlegi kormány",
+        "title": "Kormány és további tisztségviselők",
         "type": "page",
         "theme": {
           "typesetting": "article"
@@ -50,7 +50,7 @@
     }
   },
   "government": {
-    "title": "Jelenlegi vezetőség",
+    "title": "Kormány és további tisztségviselők",
     "type": "page",
     "theme": {
       "typesetting": "article"
@@ -62,7 +62,7 @@
     "type": "menu",
     "items": {
       "news": {
-        "title": "Aktualitások",
+        "title": "Hírek",
         "type": "page",
         "theme": {
           "typesetting": "article"
@@ -70,7 +70,7 @@
         "href": "/news"
       },
       "clubs": {
-        "title": "Közösségek",
+        "title": "Klubok",
         "type": "page",
         "theme": {
           "typesetting": "article"
@@ -88,7 +88,7 @@
     }
   },
   "clubs": {
-    "title": "Közösségek",
+    "title": "Klubok",
     "display": "hidden",
     "type": "page",
     "theme": {

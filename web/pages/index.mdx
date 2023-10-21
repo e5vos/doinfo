@@ -2,7 +2,7 @@
 title: Kezdőlap
 ---
 
-import { Cards, Card } from "nextra/components";
+import { Cards, Card, Button } from "nextra/components";
 import { Bleed } from "nextra-theme-docs";
 import {
   FaCalendarDay,
@@ -34,32 +34,59 @@ import Link from "next/link";
     href="https://pullowear.hu/termekkategoria/ejg/"
   >
     <img
-      src="/kmt.png"
+      src="/pulcsi.jpg"
       alt="Ki mit tud promo image"
       style={{ aspectRatio: 12 / 7, objectFit: "cover" }}
     ></img>
   </ShowcaseCard>
 </Cards>
 
-[További híreink →](/news)
+<Card
+  title="További híreink"
+  href="/news"
+  style={{ marginTop: "10px" }}
+  image={true}
+  arrow={true}
+/>
 
-## A DÖ-ről
+## A Diákönkormányzatról
 
 Az Eötvös József Gimnázium Diákönkormányzata, ha nem is a jelenlegi formájában, már több mint fél évszázados múltra tekint vissza. Ezen idő alatt előfordult, hogy elsősorban az érdekképviselet terén működött, más időszakokban pedig inkább a programkoordináció irányításában járt élen.
 
+<img
+  src="/parlament.jpg"
+  alt="Kép a parlamentről"
+  style={{ borderRadius: "10px", marginTop: "15px" }}
+></img>
+
+<ShowcaseCard
+  title="Tovább olvasom"
+  href="/about"
+  style={{ marginTop: "10px" }}
+></ShowcaseCard>
+<ShowcaseCard
+  title="Kormány és további tisztségviselők"
+  href="/government"
+  style={{ marginTop: "10px" }}
+></ShowcaseCard>
+
+## Diákélet
+
+A diákönkormányzat mellett számos közösség, klub működik az iskolában, melyek leírását és elérhetőségét az alábbiakban találod. Emellett a diákéletet színesítik a különböző rendezvények, melyek időpontjait a naptárunkban találod.
+
 <Cards>
-  <ShowcaseCard title="Tovább olvasom" href="/about">
+  <ShowcaseCard title="Klubok" href="/clubs">
     <img
-      src="/parlament.jpg"
-      alt="Kép a parlamentről"
-      style={{ aspectRatio: 12 / 6, objectFit: "cover" }}
+      src="/klubexpo.png"
+      alt="Klubok"
+      style={{ aspectRatio: 12 / 7, objectFit: "cover" }}
     ></img>
   </ShowcaseCard>
-  <ShowcaseCard title="Kormány és t. tisztségviselők" href="/government">
+  <ShowcaseCard title="Naptár" href="/calendar">
     <img
-      src="/kormany.jpeg"
-      alt="Kép a kormányról"
-      style={{ aspectRatio: 12 / 6, objectFit: "cover" }}
+      src="/calendar.jpg"
+      alt="Naptár"
+      style={{ aspectRatio: 12 / 7, objectFit: "cover" }}
     ></img>
   </ShowcaseCard>
 </Cards>
