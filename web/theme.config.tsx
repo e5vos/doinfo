@@ -1,5 +1,5 @@
 import React from "react";
-import { DocsThemeConfig } from "nextra-theme-docs";
+import { DocsThemeConfig, ThemeSwitch } from "nextra-theme-docs";
 import { useTheme } from "nextra-theme-docs";
 import { FaFacebook, FaInstagram } from "react-icons/fa";
 
@@ -7,7 +7,6 @@ const config: DocsThemeConfig = {
   logo: () => {
     const { theme } = useTheme();
     const logo = theme === "dark" ? "/logo-white.png" : "/logo-black.png";
-    console.log(theme);
     return (
       <div
         style={{
@@ -59,7 +58,7 @@ const config: DocsThemeConfig = {
   nextThemes: {
     defaultTheme: "light",
   },
-  primaryHue: 220,
+  primaryHue: { light: 220, dark: 200 },
   search: {
     emptyResult: (
       <p className="nx-block nx-select-none nx-p-8 nx-text-center nx-text-sm nx-text-gray-400">
@@ -68,6 +67,12 @@ const config: DocsThemeConfig = {
     ),
     loading: "Betöltés...",
     placeholder: "Keresés az oldalon...",
+  },
+  navbar: {
+    extraContent: <ThemeSwitch lite={true}></ThemeSwitch>,
+  },
+  sidebar: {
+    toggleButton: true,
   },
   editLink: {
     component: null,
@@ -149,9 +154,9 @@ const config: DocsThemeConfig = {
   themeSwitch: {
     useOptions() {
       return {
-        light: "Világos",
-        dark: "Sötét",
-        system: "Rendszer",
+        light: "Világos mód",
+        dark: "Sötét mód",
+        system: "Rendszer által beállított",
       };
     },
   },
