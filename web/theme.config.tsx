@@ -1,12 +1,10 @@
 import React from "react";
 import { DocsThemeConfig, ThemeSwitch } from "nextra-theme-docs";
-import { useTheme } from "nextra-theme-docs";
+import Logo from "./components/Logo";
 import { FaFacebook, FaInstagram } from "react-icons/fa";
 
 const config: DocsThemeConfig = {
   logo: () => {
-    const { theme } = useTheme();
-    const logo = theme === "dark" ? "/logo-white.png" : "/logo-black.png";
     return (
       <div
         style={{
@@ -15,10 +13,8 @@ const config: DocsThemeConfig = {
           alignItems: "center",
         }}
       >
-        <img src={logo} width={"40px"}></img>
-        <span style={{ fontWeight: "bold" }}>
-          Eötvös József Gimnázium Diákönkormányzata
-        </span>
+        <Logo></Logo>
+        <span style={{ fontWeight: "bold" }}>EJG Diákönkormányzat</span>
       </div>
     );
   },

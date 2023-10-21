@@ -1,0 +1,13 @@
+diff --git a/node_modules/nextra-theme-docs/dist/index.js b/node_modules/nextra-theme-docs/dist/index.js
+index dc4f832..3908a0e 100644
+--- a/node_modules/nextra-theme-docs/dist/index.js
++++ b/node_modules/nextra-theme-docs/dist/index.js
+@@ -2114,7 +2114,7 @@ function ThemeSwitch({
+         key: theme2,
+         name: /* @__PURE__ */ jsxs15("div", { className: "nx-flex nx-items-center nx-gap-2 nx-capitalize", children: [
+           /* @__PURE__ */ jsx23(IconToUse, {}),
+-          /* @__PURE__ */ jsx23("span", { className: lite ? "md:nx-hidden" : "", children: mounted ? options[theme2] : options.light })
++          /* @__PURE__ */ jsx23("span", { className: lite ? "nx-hidden" : "", children: mounted ? options[theme2] : options.light })
+         ] })
+       }
+     }

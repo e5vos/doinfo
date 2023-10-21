@@ -5,7 +5,8 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "postinstall": "patch-package"
   },
   "repository": {
     "type": "git",
@@ -20,6 +21,7 @@
     "next": "^13.5.5",
     "nextra": "^2.13.2",
     "nextra-theme-docs": "latest",
+    "patch-package": "^8.0.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-icons": "^4.10.1"
