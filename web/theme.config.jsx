@@ -1,9 +1,9 @@
 import React from "react";
-import { DocsThemeConfig, ThemeSwitch } from "nextra-theme-docs";
+import { ThemeSwitch } from "nextra-theme-docs";
 import Logo from "./components/Logo";
 import { FaFacebook, FaInstagram } from "react-icons/fa";
 
-const config: DocsThemeConfig = {
+const config = {
   logo: () => {
     return (
       <div
