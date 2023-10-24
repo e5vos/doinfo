@@ -1,0 +1,32 @@
+import { Cards, Card } from "nextra/components";
+import { GiForestCamp } from "react-icons/gi";
+import { FaMoon } from "react-icons/fa";
+import { FaWandMagicSparkles, FaSlideshare, FaMusic } from "react-icons/fa6";
+
+# Hírek
+
+Az alábbi oldalon találhatóak a legfrissebb hírek a programokkal kapcsolatban. Emellett egy archívumként is funkcionál, így visszakereshetőek a régebbi hírek is.
+
+## Aktuális hírek
+
+<Cards>
+  <Card
+    arrow={true}
+    icon={<FaSlideshare />}
+    title="KiMitTud?"
+    href="/news/kmt"
+  />
+</Cards>
+
+## Archívum
+
+<Cards>
+  <Card arrow={true} title="Design pályázat" href="/news/merch" />
+  <Card arrow={true} title="Zene Világnapja" href="/news/zenevilagnap" />
+  <Card arrow={true} title="Karácsonyi koncert" href="/news/walkthewish" />
+  <Card arrow={true} title="Kéktúra 14. szakasz" href="/news/kektura" />
+  <Card arrow={true} title="Gólyaest" href="/news/golyaest" />
+  <Card arrow={true} title="KlubExpo" href="/news/klubexpo" />
+</Cards>
+
+Programot szervezel az iskolában és szeretnéd meghírdetni? [Írj nekünk!](https://barnagoz.atlassian.net/servicedesk/customer/portal/3/group/4/create/13)

@@ -1,13 +1,10 @@
 import React from "react";
-import { DocsThemeConfig } from "nextra-theme-docs";
-import { useTheme } from "nextra-theme-docs";
+import { ThemeSwitch } from "nextra-theme-docs";
+import Logo from "./components/logo";
 import { FaFacebook, FaInstagram } from "react-icons/fa";
 
-const config: DocsThemeConfig = {
+const config = {
   logo: () => {
-    const { theme } = useTheme();
-    const logo = theme === "dark" ? "/logo-white.png" : "/logo-black.png";
-    console.log(theme);
     return (
       <div
         style={{
@@ -16,10 +13,8 @@ const config: DocsThemeConfig = {
           alignItems: "center",
         }}
       >
-        <img src={logo} width={"40px"}></img>
-        <span style={{ fontWeight: "bold" }}>
-          Eötvös József Gimnázium Diákönkormányzata
-        </span>
+        <Logo></Logo>
+        <span style={{ fontWeight: "bold" }}>EJG Diákönkormányzat</span>
       </div>
     );
   },
@@ -59,7 +54,7 @@ const config: DocsThemeConfig = {
   nextThemes: {
     defaultTheme: "light",
   },
-  primaryHue: 220,
+  primaryHue: { light: 220, dark: 200 },
   search: {
     emptyResult: (
       <p className="nx-block nx-select-none nx-p-8 nx-text-center nx-text-sm nx-text-gray-400">
@@ -69,8 +64,14 @@ const config: DocsThemeConfig = {
     loading: "Betöltés...",
     placeholder: "Keresés az oldalon...",
   },
+  navbar: {
+    extraContent: <ThemeSwitch lite={true}></ThemeSwitch>,
+  },
+  sidebar: {
+    toggleButton: true,
+  },
   editLink: {
-    component: null,
+    component: () => <></>,
   },
   navigation: false,
   toc: {
@@ -141,7 +142,7 @@ const config: DocsThemeConfig = {
     dismissible: true,
     key: "klubexpo2023",
     text: (
-      <a href="/actual/klubexpo" target="_blank">
+      <a href="/news/klubexpo" target="_blank">
         👥 Idén is megrendezésre került a Klubexpo! Infók →
       </a>
     ),
@@ -149,13 +150,13 @@ const config: DocsThemeConfig = {
   themeSwitch: {
     useOptions() {
       return {
-        light: "Világos",
-        dark: "Sötét",
-        system: "Rendszer",
+        light: "Világos mód",
+        dark: "Sötét mód",
+        system: "Rendszer által beállított",
       };
     },
   },
-  gitTimestamp: false,
+  gitTimestamp: <></>,
 };
 
 export default config;

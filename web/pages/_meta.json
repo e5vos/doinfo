@@ -6,8 +6,8 @@
       "typesetting": "article"
     }
   },
-  "actual": {
-    "title": "Aktualitások",
+  "news": {
+    "title": "Hírek",
     "type": "page",
     "display": "hidden",
     "theme": {
@@ -20,19 +20,16 @@
     "items": {
       "about": {
         "title": "A DÖ-ről",
-        "type": "page",
-        "theme": {
-          "typesetting": "article"
-        },
         "href": "/about"
       },
       "government": {
-        "title": "Jelenlegi kormámy",
-        "type": "page",
-        "theme": {
-          "typesetting": "article"
-        },
+        "title": "Kormány és további tisztségviselők",
         "href": "/government"
+      },
+      "dokumentumok": {
+        "title": "Nyilvános dokumentumok ↗",
+        "href": "https://drive.google.com/drive/folders/0BzvbwQrx8NJEVnJfM2tSTjJsaTA?resourcekey=0-dexBffraBCSqohIM_y4Xiw&usp=drive_link",
+        "newWindow": true
       }
     }
   },
@@ -45,7 +42,7 @@
     }
   },
   "government": {
-    "title": "Jelenlegi vezetőség",
+    "title": "Kormány és további tisztségviselők",
     "type": "page",
     "theme": {
       "typesetting": "article"
@@ -56,42 +53,22 @@
     "title": "Iskolaélet",
     "type": "menu",
     "items": {
-      "actual": {
-        "title": "Aktualitások",
-        "type": "page",
-        "theme": {
-          "typesetting": "article"
-        },
-        "href": "/actual"
+      "news": {
+        "title": "Hírek",
+        "href": "/news"
       },
       "clubs": {
-        "title": "Közösségek",
-        "type": "page",
-        "theme": {
-          "typesetting": "article"
-        },
+        "title": "Klubok",
         "href": "/clubs"
       },
-      "activities": {
-        "title": "Szakkörök",
-        "type": "page",
-        "theme": {
-          "typesetting": "article"
-        },
-        "href": "/activities"
+      "calendar": {
+        "title": "Naptár",
+        "href": "/calendar"
       }
     }
   },
   "clubs": {
-    "title": "Közösségek",
-    "display": "hidden",
-    "type": "page",
-    "theme": {
-      "typesetting": "article"
-    }
-  },
-  "activities": {
-    "title": "Szakkörök",
+    "title": "Klubok",
     "display": "hidden",
     "type": "page",
     "theme": {
@@ -100,20 +77,10 @@
   },
   "calendar": {
     "title": "Naptár",
+    "display": "hidden",
     "type": "page",
     "theme": {
       "typesetting": "article"
-    }
-  },
-  "egyeb": {
-    "title": "Egyéb",
-    "type": "menu",
-    "items": {
-      "dokumentumok": {
-        "title": "Nyilvános dokumentumok ↗",
-        "href": "https://drive.google.com/drive/folders/0BzvbwQrx8NJEVnJfM2tSTjJsaTA?resourcekey=0-dexBffraBCSqohIM_y4Xiw&usp=drive_link",
-        "newWindow": true
-      }
     }
   },
   "contact": {
