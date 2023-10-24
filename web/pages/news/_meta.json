@@ -6,6 +6,9 @@
         "title": "Aktuális hírek",
         "type": "separator"
     },
+    "e5n-program": {
+        "title": "E5N program"
+    },
     "kmt": {
         "title": "KiMitTud?"
     },
