@@ -8,7 +8,6 @@ export const ShowcaseCard = Object.assign(
     defaultProps: {
       image: true,
       arrow: true,
-      target: "_blank",
     },
   }
 );
