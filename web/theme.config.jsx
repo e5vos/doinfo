@@ -138,15 +138,11 @@ const config = {
       </div>
     ),
   },
-  /* banner: {
+  banner: {
     dismissible: true,
-    key: "klubexpo2023",
-    text: (
-      <a href="/news/klubexpo" target="_blank">
-        👥 Idén is megrendezésre került a Klubexpo! Infók →
-      </a>
-    ),
-  }, */
+    key: "webagain",
+    text: "Újra elérhető információs weboldalunk!",
+  },
   themeSwitch: {
     useOptions() {
       return {
