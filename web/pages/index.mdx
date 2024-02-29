@@ -5,10 +5,10 @@ title: Kezdőlap
 import { Cards, Card, Button } from "nextra/components";
 import { Bleed } from "nextra-theme-docs";
 import {
-  FaCalendarDay,
-  FaHeart,
-  FaRegSnowflake,
-  FaRegCalendarPlus,
+FaCalendarDay,
+FaHeart,
+FaRegSnowflake,
+FaRegCalendarPlus,
 } from "react-icons/fa";
 import { BiFootball, BiSolidMusic } from "react-icons/bi";
 import { BsPeopleFill } from "react-icons/bs";
@@ -19,53 +19,28 @@ import Link from "next/link";
 
 Üdvözlünk az Eötvös József Gimnázium Diákönkormányzatának honlapján! Az oldalunkon megtalálhatod a legfrissebb híreinket, információkat a diákönkormányzatunkról, és a rendezvényeinkről. Ha bármilyen kérdésed van, keress minket a [kapcsolat](/contact) oldalon!
 
-## Hírek
-
-<Cards>
-  <ShowcaseCard title="E5N Programszervezés" href="/news/e5n-program">
-    <img
-      src="/e5n.jpg"
-      alt="E5N Programszervezés"
-      style={{ aspectRatio: 12 / 7, objectFit: "cover" }}
-    ></img>
-  </ShowcaseCard>
-  <ShowcaseCard title="KiMitTud?" href="/news/kmt">
-    <img
-      src="/kmt.png"
-      alt="Ki mit tud promo image"
-      style={{ aspectRatio: 12 / 7, objectFit: "cover" }}
-    ></img>
-  </ShowcaseCard>
-</Cards>
-
-<Card
-  title="További híreink"
-  href="/news"
-  style={{ marginTop: "10px" }}
-  image={true}
-  arrow={true}
-/>
-
 ## Diákönkormányzat
 
 Az Eötvös József Gimnázium Diákönkormányzata, ha nem is a jelenlegi formájában, már több mint fél évszázados múltra tekint vissza. Ezen idő alatt előfordult, hogy elsősorban az érdekképviselet terén működött, más időszakokban pedig inkább a programkoordináció irányításában járt élen.
 
 <img
-  src="/parlament.jpg"
-  alt="Kép a parlamentről"
-  style={{ borderRadius: "10px", marginTop: "15px" }}
-></img>
+src="/parlament.jpg"
+alt="Kép a parlamentről"
+style={{ borderRadius: "10px", marginTop: "15px" }}
+
+> </img>
 
 <ShowcaseCard
-  title="Tovább olvasom"
-  href="/about"
-  style={{ marginTop: "10px" }}
-></ShowcaseCard>
-<ShowcaseCard
-  title="Kormány és további tisztségviselők"
-  href="/government"
-  style={{ marginTop: "10px" }}
-></ShowcaseCard>
+title="Tovább olvasom"
+href="/about"
+style={{ marginTop: "10px" }}
+
+> </ShowcaseCard>
+> <ShowcaseCard
+>   title="Kormány és további tisztségviselők"
+>   href="/government"
+>   style={{ marginTop: "10px" }}
+> </ShowcaseCard>
 
 ## Diákélet
 
